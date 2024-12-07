@@ -45,6 +45,10 @@
 </head>
 
 <body>
+  <div id="music-cover"
+  style="width: 100%; height: 100%; background: #ffffff; opacity: 0; position: fixed; z-index: 9999999;">
+  음악이 재생될 수 있습니다. 볼륨을 조절해주세요.
+</div>
    <!-- 음악 파일을 숨긴 상태로 추가 -->
    <audio id="bgm" loop>
     <source src="./bgm.mp3" type="audio/mpeg">
@@ -80,7 +84,7 @@
             <img src="img/info.png" alt="결혼정보" style="width: 100%; height: 100%" />
           </div>
         </div>
-        
+
         <!-- 음악 재생 이미지 버튼 -->
         <img id="playButton" src="img/play.png" alt="Play">
 
