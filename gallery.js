@@ -116,7 +116,7 @@ window.onload = () => {
     const link = "sms:?body=" + encodeURIComponent(message);
     window.location.href = link;
   });
-};
+
 
   // BGM
   const playButton = document.getElementById("playButton");
